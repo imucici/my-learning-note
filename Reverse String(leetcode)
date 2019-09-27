@@ -1,0 +1,6 @@
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        s[:] = s[::-1]  # [::-1]可用於字串、list。因為s為list，所以返回的為原始s的副本，因此要寫成s[:]。(若s為字串，則為同一對象)
