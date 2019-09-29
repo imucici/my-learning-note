@@ -15,4 +15,5 @@ Linked List
   * `addAtIndex(val)` : 加入節點至指定位置。
     * 先初始化新節點"cur"，再將"cur"的"next"字段鏈接到下個節點，最後將上一個的"next"字段鏈接到"cur"節點。
 * 刪除:
-  * `deleteAtIndex(index)` :
+  * `deleteAtIndex(index)` : 刪除指定位置的節點。
+    * 先找出欲刪除之節點的前後兩節點，再將上一個節點的"next"字段鏈接至後一個節點。
