@@ -15,3 +15,10 @@
 ---------
 * 第一周 (Linked List) [Linked List](https://github.com/imucici/my-learning-note/blob/master/%E7%AC%AC%E4%B8%80%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第二周 (Stack & Queue) [Stack & Queue](https://github.com/imucici/my-learning-note/blob/master/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
+
+
+
+上課進度題目練習(LeetCode) : 
+------
+* 第一周 (Linked List) 
+* 第二周 (Stack & Queue) [Stack & Queue]
