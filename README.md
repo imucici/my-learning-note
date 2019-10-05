@@ -6,7 +6,7 @@
 -----
 * [List刪除資料用法  remove、pop](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/List%E5%88%AA%E9%99%A4%E8%B3%87%E6%96%99%E7%94%A8%E6%B3%95%20%20remove%E3%80%81pop.ipynb)
 * [for迴圈](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/for%E8%BF%B4%E5%9C%88.ipynb)
-* [zip() 用法]
+* [zip() 用法](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/zip()%20%E7%94%A8%E6%B3%95.ipynb)
 
 
 
