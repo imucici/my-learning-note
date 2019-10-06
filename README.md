@@ -8,6 +8,7 @@
 * [for迴圈](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/for%E8%BF%B4%E5%9C%88.ipynb)
 * [zip() 用法](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/zip()%20%E7%94%A8%E6%B3%95.ipynb)
 * [Reverse(List vs String)](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Reverse(List%20vs%20String))
+  * [List例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)
 
 
 
