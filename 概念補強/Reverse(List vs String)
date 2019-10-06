@@ -1,4 +1,4 @@
 [::-1]可用於字串、list。
 list反轉後為原始list的`副本`;str反轉後會`覆蓋掉`原始的str
 
-[List例子]()
+[List例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)
