@@ -22,7 +22,7 @@
 上課進度題目練習(LeetCode) : 
 ------
 * 第一周 (Linked List) 
-  * [707. Design Linked List]
+  * [707. Design Linked List] ()
 * 第二周 (Stack & Queue)
   * [232. Implement Queue using Stacks](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/232.%20Implement%20Queue%20using%20Stacks.ipynb)
   * [155. Min Stack.ipynb](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/155.%20Min%20Stack.ipynb)
