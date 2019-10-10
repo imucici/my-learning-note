@@ -5,7 +5,7 @@
 目錄 :
 -----
 * [解題觀念補強](#解題觀念補強)
-* [上課內容](#上課內容)
+* [上課內容筆記](#上課內容筆記)
 * [上課進度題目練習(LeetCode)](#上課進度題目練習)
 
 解題觀念補強: 
@@ -18,7 +18,7 @@
   * [String例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/557.%20Reverse%20Words%20in%20a%20String%20III.ipynb)
 * [numpy套件](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6)
 
-上課內容: 
+上課內容筆記: 
 ---------
 * 第一周 (Linked List) [Linked List](https://github.com/imucici/my-learning-note/blob/master/%E7%AC%AC%E4%B8%80%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第二周 (Stack & Queue) [Stack & Queue](https://github.com/imucici/my-learning-note/blob/master/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
