@@ -33,7 +33,7 @@
   * [155. Min Stack](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/155.%20Min%20Stack.ipynb)
   * [232. Implement Queue using Stacks](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/232.%20Implement%20Queue%20using%20Stacks.ipynb)
 * 第三周 (Set)
-  * [645. Set Mismatch.ipynb](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/645.%20Set%20Mismatch.ipynb)
+  * [645. Set Mismatch](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/645.%20Set%20Mismatch.ipynb)
 * 第四周 (InsertionSort、QuickSort)
   * [147. Insertion Sort List](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/147.%20Insertion%20Sort%20List.ipynb)
 
