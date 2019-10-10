@@ -16,7 +16,7 @@
 * [Reverse(List vs String)](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Reverse(List%20vs%20String))
   * [List例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)
   * [String例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/557.%20Reverse%20Words%20in%20a%20String%20III.ipynb)
-
+* [numpy套件](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6)
 
 上課內容: 
 ---------
