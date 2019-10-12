@@ -62,3 +62,4 @@
 |231.|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/231.%20Power%20of%20Two.ipynb)|36 ms|
 |232.|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/submissions/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/232.%20Implement%20Queue%20using%20Stacks.ipynb)|36 ms|
 |242.|[Valid Anagram](https://leetcode.com/problems/valid-anagram/submissions/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/242.%20Valid%20Anagram.ipynb)|68 ms|
+|283.|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/283.%20Move%20Zeroes.ipynb)|68 ms|
