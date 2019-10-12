@@ -77,3 +77,4 @@
 |771.|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/771.%20Jewels%20and%20Stones.ipynb)|32 ms|
 |867.|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/867.%20Transpose%20Matrix.ipynb)|76 ms|
 |905.|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/905.%20Sort%20Array%20By%20Parity.ipynb)|92 ms|
+|922.|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/922.%20Sort%20Array%20By%20Parity%20II.ipynb)|264 ms|
