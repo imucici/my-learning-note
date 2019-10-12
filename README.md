@@ -57,3 +57,4 @@
 |1051.|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/1051.%20Height%20Checker.ipynb)|44 ms|
 |136.|[Single Number](https://leetcode.com/problems/single-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/136.%20Single%20Number.ipynb)|1256 ms|
 |147.|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/147.%20Insertion%20Sort%20List.ipynb)|248 ms|
+|155.|[Min Stack](https://leetcode.com/problems/min-stack/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/155.%20Min%20Stack.ipynb)|832 ms|
