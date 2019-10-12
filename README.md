@@ -43,7 +43,7 @@
 -----
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
-| ------------- |:-------------:| :------------:| :------------:|
+| :-------------: |:-------------:| :------------:| :------------:|
 | **week2**        |       |  |  |
 | 1108.        | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/1108.Defanging%20an%20IP%20Address.ipynb) | 40 ms|
 | 9.| [Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/9.Palindrome%20Number.ipynb) | 36 ms  |
@@ -53,4 +53,4 @@
 |344.|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)|228 ms|
 |7.|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/7.Reverse%20Integer.ipynb)|228 ms|
 | **week4** ||||
-|1.|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/1.%20Two%20Sum.ipynb)|7856 ms|
+|1.|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/1.%20Two%20Sum.ipynb)|7692 ms|
