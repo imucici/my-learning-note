@@ -43,7 +43,7 @@
 -----
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
-| ------------- |:-------------:| ------------:| ------------:
+| ------------- |:-------------:| :------------:| :------------:|
 | **week2**        |       |  |  |
 | 1108.        | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)      |   [Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/1108.Defanging%20an%20IP%20Address.ipynb) | 40 ms|
-| 9.         | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)    |  [Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/9.Palindrome%20Number.ipynb)   | 36 ms  | **week3**        |       |  |  |
+| 9.         | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)    |  [Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/9.Palindrome%20Number.ipynb)   | 36 ms  | **week3**        |       |  |  |26.|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/26.%20Remove%20Duplicates%20from%20Sorted%20Array.ipynb)|576 ms |
