@@ -67,3 +67,5 @@
 |342.|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/342.%20Power%20of%20Four.ipynb)|40 ms|
 |367.|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/367.%20Valid%20Perfect%20Square.ipynb)|36 ms|
 |520.|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/520.%20Detect%20Capital.ipynb)|36 ms|
+|557.|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/557.%20Reverse%20Words%20in%20a%20String%20III.ipynb)|28 ms|
+|561.|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/561.%20Array%20Partition%20I.ipynb)|328 ms|
