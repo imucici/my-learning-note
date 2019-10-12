@@ -59,3 +59,4 @@
 |147.|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/147.%20Insertion%20Sort%20List.ipynb)|248 ms|
 |155.|[Min Stack](https://leetcode.com/problems/min-stack/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/155.%20Min%20Stack.ipynb)|832 ms|
 |217.|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/217.%20Contains%20Duplicate.ipynb)|140 ms|
+|231.|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/231.%20Power%20of%20Two.ipynb)|36 ms|
