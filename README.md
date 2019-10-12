@@ -75,3 +75,5 @@
 |707.|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/707.%20Design%20Linked%20List.ipynb)|356 ms|
 |709.|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/709.%20To%20Lower%20Case.ipynb)|40 ms|
 |771.|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/771.%20Jewels%20and%20Stones.ipynb)|32 ms|
+|867.|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/867.%20Transpose%20Matrix.ipynb)|76 ms|
+|905.|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/905.%20Sort%20Array%20By%20Parity.ipynb)|92 ms|
