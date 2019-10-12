@@ -65,3 +65,5 @@
 |283.|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/283.%20Move%20Zeroes.ipynb)|204 ms|
 |326.|[Power of Three](https://leetcode.com/problems/power-of-three/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/326.%20Power%20of%20Three.ipynb)|112 ms|
 |342.|[Power of Four](https://leetcode.com/problems/power-of-four/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/342.%20Power%20of%20Four.ipynb)|40 ms|
+|367.|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/367.%20Valid%20Perfect%20Square.ipynb)|36 ms|
+|520.|[Detect Capital](https://leetcode.com/problems/detect-capital/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/520.%20Detect%20Capital.ipynb)|36 ms|
