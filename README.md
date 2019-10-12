@@ -49,3 +49,6 @@
 | 9.| [Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/9.Palindrome%20Number.ipynb) | 36 ms  |
 | **week3** ||||
 |26.|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/26.%20Remove%20Duplicates%20from%20Sorted%20Array.ipynb)|576 ms|
+|27.|[Remove Element](https://leetcode.com/problems/remove-element/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/27.Remove%20Element.ipynb)|36 ms|
+|344.|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)|228 ms|
+|7.|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/7.Reverse%20Integer.ipynb)|228 ms|
