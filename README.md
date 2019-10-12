@@ -54,3 +54,5 @@
 |7.|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/7.Reverse%20Integer.ipynb)|228 ms|
 | **week4** ||||
 |1.|[Two Sum](https://leetcode.com/problems/two-sum/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/1.%20Two%20Sum.ipynb)|7692 ms|
+|1051.|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/1051.%20Height%20Checker.ipynb)|44 ms|
+|136.|[Single Number.ipynb](https://leetcode.com/problems/single-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/136.%20Single%20Number.ipynb)|1256 ms|
