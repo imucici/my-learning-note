@@ -78,3 +78,4 @@
 |867.|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/867.%20Transpose%20Matrix.ipynb)|76 ms|
 |905.|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/905.%20Sort%20Array%20By%20Parity.ipynb)|92 ms|
 |922.|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/922.%20Sort%20Array%20By%20Parity%20II.ipynb)|264 ms|
+|977.|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/977.%20Squares%20of%20a%20Sorted%20Array.ipynb)|268 ms|
