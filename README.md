@@ -42,3 +42,9 @@
 自主練習
 -----
 
+|         |     LeetCode題目     | 解法  | 運行時間 |
+| ------------- |:-------------:| ------------:|
+| **week2**        | **week2**      | **week2** |
+| 1108.        | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)      |   [Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/1108.Defanging%20an%20IP%20Address.ipynb) | 40 ms|
+| 9.         | [Palindrome Number
+](https://leetcode.com/problems/palindrome-number/)    |  [Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week2/9.Palindrome%20Number.ipynb)   | 36ms
