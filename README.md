@@ -80,3 +80,5 @@
 |922.|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/922.%20Sort%20Array%20By%20Parity%20II.ipynb)|264 ms|
 |977.|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/977.%20Squares%20of%20a%20Sorted%20Array.ipynb)|268 ms|
 | **week5** ||||
+|1154.|[Day of the Year](https://leetcode.com/problems/day-of-the-year/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/1154.%20Day%20of%20the%20Year.ipynb)|32 ms|
+|169.|[Majority Element](https://leetcode.com/problems/majority-element/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/169.%20Majority%20Element.ipynb)|212 ms|
