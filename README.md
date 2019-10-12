@@ -74,3 +74,4 @@
 |657.|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/657.%20Robot%20Return%20to%20Origin.ipynb)|100 ms|
 |707.|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/707.%20Design%20Linked%20List.ipynb)|356 ms|
 |709.|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/709.%20To%20Lower%20Case.ipynb)|40 ms|
+|771.|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/771.%20Jewels%20and%20Stones.ipynb)|32 ms|
