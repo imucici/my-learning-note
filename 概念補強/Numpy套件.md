@@ -59,7 +59,7 @@ for i in a :
            print(j)
 ```           
 
-
+```python
 output : 
 1
 2
@@ -67,3 +67,4 @@ output :
 4
 5
 6
+```
