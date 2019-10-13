@@ -6,6 +6,7 @@ Numpy套件
 * [Numpy vs List](#比較陣列和清單)
 * [操作](#操作)
 * [基本運算](#基本運算)
+* [參考資料](#參考資料)
 
 簡介:
 ----
@@ -90,3 +91,9 @@ output :
 5
 6
 ```
+
+
+
+參考資料:
+----
+[NumPy 1.14 教學 – #01 基礎, 建立陣列的方法](https://www.brilliantcode.net/1022/numpy-tutorial-basics-array-creations/)
