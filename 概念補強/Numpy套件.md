@@ -31,6 +31,14 @@ a[0] #取值
 b[0] = 6 #更改值
 ```
 
+
+```python
+a = np.arange(5) #類似 Python 的 range, 但是回傳 array
+print(a)
+>>[0,1,2,3,4]
+```
+
+
 基本運算:
 ----
 
