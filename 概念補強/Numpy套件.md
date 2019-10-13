@@ -28,12 +28,12 @@ Numpy套件
 重要屬性:
 ---
 
-* ndarray.ndim：NumPy ndarray物件的維度
-* ndarry.shape：ndarry物件的每一個維度的大小(size)，回傳資料類別為Tuple
-* ndarry.size：ndarry物件所組成之array的總元素數量，回應之數值會等於ndarray.shape的每個元素相乘
-* ndarry.dtype：ndarray物件內組成元素的型態
-* ndarray.itemsize：陣列中每一個元素的大小(Bytes) (ex: int16=>16/8=2 Bytes)
-* ndarry.data：這是一個存有實際陣列元素的緩衝，通常我們不需要使用這個屬性，因為我們可以使用index存取這些元素。
+* **ndarray.ndim**：NumPy ndarray物件的維度
+* **ndarry.shape**：ndarry物件的每一個維度的大小(size)，回傳資料類別為`Tuple`
+* **ndarry.size**：ndarry物件所組成之array的總元素數量，回應之數值會等於ndarray.shape的每個元素相乘
+* **ndarry.dtype**：ndarray物件內組成元素的型態
+* **ndarray.itemsize**：陣列中每一個**元素**的`大小(Bytes)` (ex: int16=>16/8=2 Bytes)
+* **ndarry.data**：這是一個存有實際陣列元素的緩衝，通常我們不需要使用這個屬性，因為我們可以使用index存取這些元素。
 
 
 操作:
