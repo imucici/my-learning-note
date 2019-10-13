@@ -110,3 +110,5 @@ output :
 參考資料:
 ----
 [NumPy 1.14 教學 – #01 基礎, 建立陣列的方法](https://www.brilliantcode.net/1022/numpy-tutorial-basics-array-creations/)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
