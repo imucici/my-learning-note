@@ -20,12 +20,16 @@
   * [List例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)
   * [String例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/557.%20Reverse%20Words%20in%20a%20String%20III.ipynb)
 
+[回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
+
 上課內容筆記: 
 ---------
 * 第一周 (Linked List) [Linked List](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%B8%80%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第二周 (Stack & Queue) [Stack & Queue](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第三週 (Set Mismatch) [Set Mismatch](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%B8%89%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第四周 (InsertionSort、QuickSort) [InsertionSort、QuickSort](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%9B%9B%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
+
+[回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
 
 上課進度題目練習: 
 ------
@@ -39,6 +43,7 @@
 * 第四周 (InsertionSort、QuickSort)
   * [147. Insertion Sort List](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/147.%20Insertion%20Sort%20List.ipynb)
 
+[回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
 
 自主練習:
 -----
@@ -88,3 +93,28 @@
 |448.|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.ipynb)|400 ms|
 |509.|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/509.%20Fibonacci%20Number.ipynb)|32 ms|
 |961.|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.ipynb)|248 ms|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
