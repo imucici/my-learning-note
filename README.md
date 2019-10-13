@@ -39,7 +39,7 @@
   * [147. Insertion Sort List](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/147.%20Insertion%20Sort%20List.ipynb)
 
 
-自主練習
+自主練習:
 -----
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
