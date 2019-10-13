@@ -27,6 +27,8 @@ Numpy套件
 |效率|較高|較低|
 
 
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
+
 重要屬性:
 ---
 
@@ -37,6 +39,8 @@ Numpy套件
 * **ndarray.itemsize**：陣列中每一個**元素**的`大小(Bytes)` (ex: int16=>16/8=2 Bytes)
 * **ndarry.data**：這是一個存有實際陣列元素的緩衝，通常我們不需要使用這個屬性，因為我們可以使用index存取這些元素。
 
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 操作:
 ---
@@ -64,6 +68,7 @@ print(a)
 >>[0,1,2,3,4]
 ```
 
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 基本運算:
 ----
@@ -104,7 +109,7 @@ output :
 5
 6
 ```
-
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 
 參考資料:
