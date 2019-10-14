@@ -93,8 +93,8 @@
 |448.|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.ipynb)|400 ms|
 |509.|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/509.%20Fibonacci%20Number.ipynb)|32 ms|
 |961.|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.ipynb)|248 ms|
-
-
+| **week6** ||||
+|1207.|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/509.%20Fibonacci%20Number.ipynb)|32 ms|
 
 
 
