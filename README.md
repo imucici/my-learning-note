@@ -6,8 +6,8 @@
 -----
 * [解題觀念補強](#解題觀念補強)
 * [上課內容筆記](#上課內容筆記)
-* [上課進度題目練習_LeetCode](#上課進度題目練習_LeetCode)
-* [自主練習](#自主練習)
+* [上課進度題目練習](#上課進度題目練習)
+* [自主練習_LeetCode](#自主練習_LeetCode)
 
 解題觀念補強: 
 -----
@@ -33,7 +33,7 @@
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
 
-上課進度題目練習_LeetCode: 
+上課進度題目練習: 
 ------
 * 第一周 (Linked List) 
   * [707. Design Linked List](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/707.%20Design%20Linked%20List.ipynb)
@@ -49,7 +49,7 @@
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
 
-自主練習:
+自主練習_LeetCode:
 -----
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
