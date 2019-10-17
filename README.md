@@ -6,6 +6,7 @@
 -----
 * [解題觀念補強](#解題觀念補強)
 * [上課內容筆記](#上課內容筆記)
+* [作業](#作業)
 * [上課進度題目練習](#上課進度題目練習)
 * [自主練習_LeetCode](#自主練習_LeetCode)
 
@@ -32,6 +33,14 @@
 * 第四周 (InsertionSort、QuickSort) [InsertionSort、QuickSort](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%9B%9B%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
+
+
+作業:
+----
+
+
+
+
 
 上課進度題目練習: 
 ------
