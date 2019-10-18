@@ -27,6 +27,9 @@ lambda語法:
 map()簡介:
 -----
 
+map() 會根據提供的函數(function)對指定序列做映射。
+第一個参數 function 以参數序列中的每一個元素調用 function 函數，返回包含每次 function 函數返回值的新列表。
+
 
 [回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
 
