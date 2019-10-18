@@ -13,7 +13,7 @@ lambda、map()函數
 lambda簡介:
 -----
 
-* 又被稱為**無名函數**，是種將運算式重複運用的方式，類似函數 (function) ，卻又不像函數需要額外命名函數的識別字 (identifier)。
+* 又被稱為**無名函數**，是種將運算式重複運用的方式，類似函數 (function) ，卻又不像函數需要額外命名函數的識別字。
 
 [回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
 
