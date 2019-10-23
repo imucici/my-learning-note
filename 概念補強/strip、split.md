@@ -30,8 +30,8 @@ print(a.rstrip())
 output
 ```python
 '123'
-' 123'
 '123 '
+' 123'
 ```
 
 
