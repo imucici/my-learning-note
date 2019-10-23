@@ -23,7 +23,7 @@
   * [List例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week3/344.Reverse%20String.ipynb)
   * [String例子](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/557.%20Reverse%20Words%20in%20a%20String%20III.ipynb)
 * [count](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/count.ipynb)
-* [](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/strip%E3%80%81split.md)
+* [strip、split.md](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/strip%E3%80%81split.md)
 
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
