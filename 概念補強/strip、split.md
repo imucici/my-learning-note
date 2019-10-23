@@ -22,16 +22,16 @@ a = " 123 "
 a.strip()
 a.lstrip()
 a.rstrip()
-print("刪除s字串中`開頭`、`結尾`處",a.strip())
-print("刪除s字串中`開頭`處",a.lstrip())
-print("刪除s字串中`結尾`處",a.rstrip())
+print(a.strip())
+print(a.lstrip())
+print(a.rstrip())
 ```
 
 output
 ```python
-刪除s字串中`開頭`、`結尾`處，位於 rm刪除序列的字元'123'
-刪除s字串中`開頭`處'123 '
+'123'
 ' 123'
+'123 '
 ```
 
 
