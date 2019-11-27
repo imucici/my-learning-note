@@ -122,7 +122,7 @@
 |1207.|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Python](https://github.com/imucici/my-learning-note/tree/master/LeetCode/week6)|60 ms|
 | **week12** ||||
 |852.|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/852.%20Peak%20Index%20in%20a%20Mountain%20Array.ipynb)|88 ms|
-
+|832.|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/832.%20Flipping%20an%20Image.ipynb)|52 ms|
 
 
 
