@@ -120,6 +120,10 @@
 |961.|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week5/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.ipynb)|248 ms|
 | **week6** ||||
 |1207.|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Python](https://github.com/imucici/my-learning-note/tree/master/LeetCode/week6)|60 ms|
+| **week12** ||||
+|852.|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/852.%20Peak%20Index%20in%20a%20Mountain%20Array.ipynb)|88 ms|
+
+
 
 
 
