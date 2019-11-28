@@ -123,8 +123,8 @@
 | **week12** ||||
 |852.|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/852.%20Peak%20Index%20in%20a%20Mountain%20Array.ipynb)|88 ms|
 |832.|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/832.%20Flipping%20an%20Image.ipynb)|52 ms|
-
-
+|1122.|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/1122.%20Relative%20Sort%20Array.ipynb)|68 ms|
+|189.|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/189.%20Rotate%20Array.ipynb)|64 ms|
 
 
 
