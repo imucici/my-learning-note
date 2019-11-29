@@ -125,7 +125,8 @@
 |832.|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/832.%20Flipping%20an%20Image.ipynb)|52 ms|
 |1122.|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/1122.%20Relative%20Sort%20Array.ipynb)|68 ms|
 |189.|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/189.%20Rotate%20Array.ipynb)|64 ms|
-
+|896.|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/896.%20Monotonic%20Array.ipynb)|528 ms|
+|884.|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/884.%20Uncommon%20Words%20from%20Two%20Sentences.ipynb)|28 ms|
 
 
 
