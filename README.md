@@ -127,7 +127,8 @@
 |189.|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/189.%20Rotate%20Array.ipynb)|64 ms|
 |896.|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/896.%20Monotonic%20Array.ipynb)|528 ms|
 |884.|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/884.%20Uncommon%20Words%20from%20Two%20Sentences.ipynb)|28 ms|
-
+|917.|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/917.%20Reverse%20Only%20Letters.ipynb)|28 ms|
+|1232.|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.ipynb)|60 ms|
 
 
 
