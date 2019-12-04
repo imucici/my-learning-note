@@ -129,6 +129,14 @@
 |884.|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/884.%20Uncommon%20Words%20from%20Two%20Sentences.ipynb)|28 ms|
 |917.|[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/917.%20Reverse%20Only%20Letters.ipynb)|28 ms|
 |1232.|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week12/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line.ipynb)|60 ms|
+| **week13** ||||
+|28.|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/28.%20Implement%20strStr().ipynb)|28 ms|
+|383.|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/383.%20Ransom%20Note.ipynb)|32 ms|
+|414.|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/414.%20Third%20Maximum%20Number.ipynb)|56 ms|
+|599.|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists.ipynb)|1196 ms|
+|605.|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/605.%20Can%20Place%20Flowers.ipynb)|176 ms|
+|859.|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/859.%20Buddy%20Strings.ipynb)|36 ms|
+|88.|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/88.%20Merge%20Sorted%20Array.ipynb)|36 ms|
 
 
 
