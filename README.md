@@ -137,7 +137,9 @@
 |605.|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/605.%20Can%20Place%20Flowers.ipynb)|176 ms|
 |859.|[Buddy Strings](https://leetcode.com/problems/buddy-strings/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/859.%20Buddy%20Strings.ipynb)|36 ms|
 |88.|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/88.%20Merge%20Sorted%20Array.ipynb)|36 ms|
-
+|160.|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/160.%20Intersection%20of%20Two%20Linked%20Lists.ipynb)|172 ms|
+|203.|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/203.%20Remove%20Linked%20List%20Elements.ipynb)| ms|
+|141.|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/141.%20Linked%20List%20Cycle.ipynb)|1244 ms|
 
 
 
