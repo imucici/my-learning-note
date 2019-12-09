@@ -140,7 +140,10 @@
 |160.|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/160.%20Intersection%20of%20Two%20Linked%20Lists.ipynb)|172 ms|
 |203.|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/203.%20Remove%20Linked%20List%20Elements.ipynb)|68 ms|
 |141.|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week13/141.%20Linked%20List%20Cycle.ipynb)|1244 ms|
-
+| **week14** ||||
+|705.|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/705.%20Design%20HashSet.ipynb)|216 ms|
+|888.|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/888.%20Fair%20Candy%20Swap.ipynb)|392 ms|
+|700.|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/700.%20Search%20in%20a%20Binary%20Search%20Tree.ipynb)|68 ms|
 
 
 
