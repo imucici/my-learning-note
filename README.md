@@ -151,7 +151,7 @@
 |540.|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/540.%20Single%20Element%20in%20a%20Sorted%20Array.ipynb)|60 ms|
 |876.|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/876.%20Middle%20of%20the%20Linked%20List.ipynb)|28 ms|
 |912.|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/912.%20Sort%20an%20Array.ipynb)|252 ms|
-
+|1281.|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.ipynb)|28 ms|
 
 
 
