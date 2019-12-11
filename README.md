@@ -144,8 +144,13 @@
 |705.|[Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/705.%20Design%20HashSet.ipynb)|216 ms|
 |888.|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/888.%20Fair%20Candy%20Swap.ipynb)|392 ms|
 |700.|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/700.%20Search%20in%20a%20Binary%20Search%20Tree.ipynb)|68 ms|
-
-
+|147.|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/147.Insertion%20Sort%20List.ipynb)|1736 ms|
+|206.|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/206.%20Reverse%20Linked%20List.ipynb)|36 ms|
+|21.|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/21.%20Merge%20Two%20Sorted%20Lists.ipynb)|40 ms|
+|234.|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/234.%20Palindrome%20Linked%20List.ipynb)|60 ms|
+|540.|[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/540.%20Single%20Element%20in%20a%20Sorted%20Array.ipynb)|60 ms|
+|876.|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/876.%20Middle%20of%20the%20Linked%20List.ipynb)|28 ms|
+|912.|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/912.%20Sort%20an%20Array.ipynb)|252 ms|
 
 
 
