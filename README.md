@@ -153,7 +153,14 @@
 |912.|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/912.%20Sort%20an%20Array.ipynb)|252 ms|
 |1281.|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.ipynb)|28 ms|
 |4.|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/4.%20Median%20of%20Two%20Sorted%20Arrays.ipynb)|100 ms|
-
+|965.|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/965.%20Univalued%20Binary%20Tree.ipynb)|28 ms|
+|938.|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/938.%20Range%20Sum%20of%20BST.ipynb)|292 ms|
+|92.|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/92.%20Reverse%20Linked%20List%20II.ipynb)|24 ms|
+|75.|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/75.%20Sort%20Colors.ipynb)|44 ms|
+|704.|[Binary Search](https://leetcode.com/problems/binary-search/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/704.%20Binary%20Search.ipynb)|260 ms|
+|701.|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/701.%20Insert%20into%20a%20Binary%20Search%20Tree.ipynb)|116 ms|
+|653.|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.ipynb)|228 ms|
+|148.|[Sort List](https://leetcode.com/problems/sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/148.%20Sort%20List.ipynb)|96 ms|
 
 
 
