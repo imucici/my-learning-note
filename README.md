@@ -162,7 +162,7 @@
 |653.|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.ipynb)|228 ms|
 |148.|[Sort List](https://leetcode.com/problems/sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/148.%20Sort%20List.ipynb)|96 ms|
 |19.|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.ipynb)|28 ms|
-
+|61.|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/61.%20Rotate%20List.ipynb)|28 ms|
 
 
 
