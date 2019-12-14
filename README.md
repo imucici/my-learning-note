@@ -163,11 +163,16 @@
 |148.|[Sort List](https://leetcode.com/problems/sort-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/148.%20Sort%20List.ipynb)|96 ms|
 |19.|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.ipynb)|28 ms|
 |61.|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/61.%20Rotate%20List.ipynb)|28 ms|
-
-
-
-
-
+|989.|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/989.%20Add%20to%20Array-Form%20of%20Integer.ipynb)|520 ms|
+|82.|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.ipynb)|52 ms|
+|81.|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.ipynb)|76 ms|
+|80.|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.ipynb)|76 ms|
+|791.|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/791.%20Custom%20Sort%20String.ipynb)|32 ms|
+|724.|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/724.%20Find%20Pivot%20Index.ipynb)|160 ms|
+|33.|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/33.%20Search%20in%20Rotated%20Sorted%20Array.ipynb)|40 ms|
+|237.|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/237.%20Delete%20Node%20in%20a%20Linked%20List.ipynb)|32 ms|
+|23.|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/23.%20Merge%20k%20Sorted%20Lists.ipynb)|84 ms|
+|142.|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/142.%20Linked%20List%20Cycle%20II.ipynb)|1228 ms|
 
 
 
