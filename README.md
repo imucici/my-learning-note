@@ -173,9 +173,13 @@
 |237.|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/237.%20Delete%20Node%20in%20a%20Linked%20List.ipynb)|32 ms|
 |23.|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/23.%20Merge%20k%20Sorted%20Lists.ipynb)|84 ms|
 |142.|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/142.%20Linked%20List%20Cycle%20II.ipynb)|1228 ms|
-
-
-
+|349.|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/349.%20Intersection%20of%20Two%20Arrays.ipynb)|44 ms|
+|219.|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/219.%20Contains%20Duplicate%20II.ipynb)|96 ms|
+|1290.|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.ipynb)|32 ms|
+|1078.|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1078.%20Occurrences%20After%20Bigram.ipynb)|36 ms|
+|1009.|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1009.%20Complement%20of%20Base%2010%20Integer.ipynb)|28 ms|
+|919.|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/919.%20Complete%20Binary%20Tree%20Inserter.ipynb)|64 ms|
+|496.|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/496.%20Next%20Greater%20Element%20I.ipynb)|404 ms|
 
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
