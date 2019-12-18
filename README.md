@@ -180,6 +180,18 @@
 |1009.|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/1009.%20Complement%20of%20Base%2010%20Integer.ipynb)|28 ms|
 |919.|[Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/919.%20Complete%20Binary%20Tree%20Inserter.ipynb)|64 ms|
 |496.|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week14/496.%20Next%20Greater%20Element%20I.ipynb)|404 ms|
+| **week15** ||||
+|1019.|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/1019.%20Next%20Greater%20Node%20In%20Linked%20List.ipynb)|364 ms|
+|1038.|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.ipynb)|28 ms|
+|1047.|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/1047.%20Remove%20All%20Adjacent%20Duplicates%20In%20String.ipynb)|220 ms|
+|287.|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/287.%20Find%20the%20Duplicate%20Number.ipynb)|68 ms|
+|442.|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/442.%20Find%20All%20Duplicates%20in%20an%20Array.ipynb)|404 ms|
+|538.|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/538.%20Convert%20BST%20to%20Greater%20Tree.ipynb)|72 ms|
+|83.|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/83.%20Remove%20Duplicates%20from%20Sorted%20List.ipynb)|72 ms|
+
+
+
+
 
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
