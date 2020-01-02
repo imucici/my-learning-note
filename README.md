@@ -70,7 +70,7 @@
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
 
-自主練習_LeetCode:
+自主練習_LeetCode: (截至目前已完成116題)
 -----
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
