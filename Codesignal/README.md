@@ -15,14 +15,12 @@ lambda簡介:
 
 又被稱為**無名函數**，是種將運算式重複運用的方式，類似函數 (function) ，卻又不像函數需要額外命名函數的識別字。
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
-
 lambda語法:
 ----
 
 * lambda `變數名稱`:`運算式`
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
+
 
 map函數簡介:
 -----
@@ -31,7 +29,7 @@ map() 會根據提供的函數(function)對指定序列做映射。
 第一個参數 function 以参數序列中的每一個元素調用 function 函數，返回包含每次 function 函數返回值的新列表。
 
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
+
 
 map函數語法:
 ------
@@ -43,7 +41,6 @@ map(function, 序列1, 序列2,...)
 ```
 
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
 
 實例操作:
 ----
@@ -65,7 +62,6 @@ output
 [-18,-4,0,0,-32]
 ```
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/lambda%E3%80%81map()%E5%87%BD%E6%95%B8.md#%E7%9B%AE%E9%8C%84)
 
 
 
@@ -85,8 +81,6 @@ while True、break、continue、pass
 * while True 是一個無限循環語句(死循環)，核心思想是`如果出現錯誤，可以繼續循環`，因為條件是`True` ，所以永遠不會跳出循環。
 * while True 語句中一定要有結束該循環的 **`break`** 語句，否則會一直循環下去。
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6.md#%E7%9B%AE%E9%8C%84)
-<br></br>
 
 
 break_continue_pass區別
@@ -186,7 +180,7 @@ t
 迴圈執行了7次
 ```
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6.md#%E7%9B%AE%E9%8C%84)
+
 <br></br>
 
 應用場景:
@@ -201,7 +195,7 @@ t
 
 ![break&continue](https://miro.medium.com/max/1812/1*pIjwaFT0wAki6DqFQ94VBw.png)
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6.md#%E7%9B%AE%E9%8C%84)
+
 <br></br>
 
 參考資料:
@@ -209,7 +203,7 @@ t
 * [while True的用法](https://blog.csdn.net/geerniya/article/details/77524173)
 * [1 分鐘搞懂 Python 迴圈控制：break、continue、pass](https://medium.com/@chiayinchen/1-%E5%88%86%E9%90%98%E6%90%9E%E6%87%82-python-%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6-break-continue-pass-be290cd1f9d8)
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/%E8%BF%B4%E5%9C%88%E6%8E%A7%E5%88%B6.md#%E7%9B%AE%E9%8C%84)
+
 
 
 strip() vs. split()
@@ -293,7 +287,6 @@ Numpy套件
 |效率|較高|較低|
 
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 重要屬性:
 ---
@@ -306,7 +299,6 @@ Numpy套件
 * **ndarry.data**：這是一個存有實際陣列元素的緩衝，通常我們不需要使用這個屬性，因為我們可以使用index存取這些元素。
 
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 操作:
 ---
@@ -334,7 +326,6 @@ print(a)
 >>[0,1,2,3,4]
 ```
 
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 基本運算:
 ----
@@ -375,11 +366,8 @@ output :
 5
 6
 ```
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
 
 
 參考資料:
 ----
 [NumPy 1.14 教學 – #01 基礎, 建立陣列的方法](https://www.brilliantcode.net/1022/numpy-tutorial-basics-array-creations/)
-
-[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E6%A6%82%E5%BF%B5%E8%A3%9C%E5%BC%B7/Numpy%E5%A5%97%E4%BB%B6.md#%E7%9B%AE%E9%8C%84)
