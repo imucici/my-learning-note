@@ -1,0 +1,189 @@
+Stack and Queue
+=====
+
+由於BFS、DFS的概念就是Stack and Queue，因此直接複習Stack and Queue
+
+目錄 : 
+-----
+* [概念](#概念)
+* [操作](#操作)
+* [應用](#應用)
+* [程式碼_實作](#程式碼_實作)
+* [完整程式碼連結](#完整程式碼連結)
+* [課程影片連結](#課程影片連結)
+* [參考資料](#參考資料)
+
+概念:
+------
+* **stack** : 堆疊。 ex : _疊盤子_
+  * 先進後出、後進先出。
+  * 想知道Stack裡的所有資料，只能靠Pop()，把資料一個一個拿出來檢查。
+
+![stack](https://www.101computing.net/wp/wp-content/uploads/stack-diagram.png)
+
+* **queue** : 佇列(像排隊)。 ex : _排隊買票_
+  * 先進先出、後進後出。
+
+
+![queue](https://www.101computing.net/wp/wp-content/uploads/queue-diagram.png)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+
+操作:
+----
+* **stack** : 
+  * Push(data) : 把資料放進stack。
+  * Pop : 移除最上面的資料。
+  * Top : 回傳最上面的資料。
+  * IsEmpty : 判斷Stack中是否有資料。
+  * getSize : 回傳目前Stack中資料個數。
+ 
+* **queue** :
+  * Push(data) : 將資料加入queue`最後面`。
+  * Pop : 將所指向的資料移除。
+  * getFront : 回傳front所指向的資料。
+  * IsEmpty : 判斷queue中是否有資料。
+  * getSize : 回傳目前queue中資料個數。
+  * enqueue：將資料`加入`至佇列**後端**(Rear)。
+  * dequeue：`刪除`佇列**前端**(Front)之資料。
+
+  ```diff
+  ! enqueue、dequeue 的動作發生在不同兩端
+> 參考資料: [Stack: Intro(簡介)](http://alrightchiu.github.io/SecondRound/stack-introjian-jie.html)
+
+> 參考資料: [dequeue：取出佇列前端之資料](http://epaper.gotop.com.tw/pdf/AEE032400.pdf)
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+應用:
+----
+* **Stack**:
+  * 瀏覽器回上一頁
+  * 深度優先搜尋演算法（Depth-First-Search）
+  * 編輯器中的Undo
+
+* **Queue**:
+  * 多個程序的資源共享
+  * 廣度優先搜尋演算法（Breadth-First-Search）
+
+> 參考資料 : [以Python實作資料結構 – Data Structure Implements in Python](https://super9.space/archives/1105)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+
+程式碼_實作:
+-----
+> LeetCode題目: [155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+:blush:可用List的概念做
+
+* Step1:初始化給個空間
+
+```python
+class MinStack:
+
+    def __init__(self):
+        self.item = []
+```
+
+* **Push(x)** : 新增一個元素在最List最末端(Stack的頂端)
+
+```python
+def push(self, x: int) -> None:
+        self.item.append(x)
+```
+
+* **pop()** : 移除List最後一個值(Stack的頂端)
+
+```python
+def pop(self) -> None:
+        self.item.pop()
+```
+
+* **top()** : 回傳List最後一個值(Stack的頂端)
+
+```python
+def top(self) -> int:
+        return self.item[-1]
+```
+
+* **getMin()** : 回傳最小值
+
+```python
+def getMin(self) -> int:
+        return min(self.item)
+```
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+>LeetCode題目: [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+* Step1:初始化給個空間
+
+```python
+class MyQueue:
+
+    def __init__(self):
+        self.q = []
+```
+* **push(x)**: 新增一個資料在最尾端
+
+```python
+def push(self, x: int) -> None:      
+        self.q.append(x)
+```
+
+* **pop()**: 移除最前面的資料，並回傳那個值
+
+```python
+def pop(self) -> int:
+        pop_q = self.q[0]
+        self.q[:] = self.q[1:]
+        return pop_q
+```
+
+* **peek()**:獲取最前面的元素
+
+```python
+def peek(self) -> int:
+        return self.q[0]
+```
+
+* **empty()**: 判斷queue是否為空
+```python
+def empty(self) -> bool:
+        if len(self.q) == 0:
+            return True
+        else:
+            return False
+```
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+
+完整程式碼連結
+------
+[155. Min Stack](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/155.%20Min%20Stack.ipynb)
+
+[232. Implement Queue using Stacks](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week4/232.%20Implement%20Queue%20using%20Stacks.ipynb)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+
+課程影片連結:
+----
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wjI1WNcIntg
+" target="_blank"><img src="http://img.youtube.com/vi/wjI1WNcIntg/0.jpg" 
+alt="Stack & Queue" width="720" height="540" border="20" /></a>
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
+
+參考資料:
+-----
+* [Stacks and Queues in Python](https://stackabuse.com/stacks-and-queues-in-python/)
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%8C%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84-)
