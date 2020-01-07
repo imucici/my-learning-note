@@ -1,0 +1,288 @@
+Heap Sort
+===
+
+目錄
+-----
+* [Binary_Heap_二元堆積](#Binary_Heap_二元堆積)
+* [穩定性_時間_空間複雜度比較](#穩定性_時間_空間複雜度比較)
+* [流程圖](#流程圖)
+* [建構Max_heap](#建構Max_heap)
+  * [MaxHeapify函式](#MaxHeapify函式)
+  * [BuildMaxHeap函式](#BuildMaxHeap函式)
+* [HeapSort](#HeapSort)
+* [參考資料](#參考資料)
+
+Binary_Heap_二元堆積:
+---
+
+滿足以下兩種特徵:
+
+* `Complete Tree` : 除了最後一層，其他層都是完全的，且最後一層的葉子靠左。
+
+  * 由上到下，先左再右，按照順序填滿位置(如下圖)
+  * **parent(父節點)** : 位在`(i-1)//2`
+  * **left** : 位在`2*i+1`
+  * **right** : 位在`2*i+2`
+  
+  :laughing: 以index(1)之node(3) 為例，parent為( **1** -1)//2 >> index(0)之node(1) ; left child為 2* **1** +1 >> index(3)之node(5) ; right child為 2* **1** +2 >> index(4)之node(9)
+  
+  
+![圖一](https://www.geeksforgeeks.org/wp-content/uploads/binaryheap.png)
+
+* `Max Heap or min Heap` : 以index(i)為subtree的root，可以分為二類
+
+  * **Max Heap**： 在每一個subtree中，parent的數值要比left、right的數值`大`
+    * array[i] > array[2*i+1]
+    * array[i] > array[2*i+2]
+
+
+
+  * **min Heap**： 在每一個subtree中，parent的數值要比left、right的數值`小`
+    * array[i] < array[2*i+1]
+    * array[i] < array[2*i+2]
+
+![Max Heap or min Heap](https://miro.medium.com/max/3076/1*2XhoV0IYgNlRxQ8jCW1Guw.png)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+
+
+穩定性_時間_空間複雜度比較:
+----
+
+|         |     Merge Sort     |  	Heap Sort |
+| :-------------: |:-------------:| :------------:|
+| 最佳時間複雜度        | Ο(n log n)    |Ο(n log n)|
+| 平均時間複雜度        | Ο(n log n)     |   Ο(n log n)|
+| 最差時間複雜度         | Ο(n log n)     |  Ο(n log n)|
+|空間複雜度| Ο(n) 為避免在合併時覆蓋掉還未比較的元素，因此需暫時開一個空間存放Merge後的結果| Ο(1) (in_place不占外部空間)|
+|穩定性|穩定|不穩定|
+
+```diff
+! 穩定:如果鍵值相同之資料，在排序後相對位置與排序前相同時，稱穩定排序。
+! 不穩定:如果鍵值相同之資料，在排序後相對位置與排序前不相同時，稱不穩定排序。
+````
+* **Merge Sort_時間複雜度推導**
+<br></br>
+![Merge Sort_時間複雜度推導](https://github.com/imucici/my-learning-note/blob/master/%E5%9C%96%E7%89%87/Merge%20Sort_%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6.jpg)
+
+* **Heap Sort_時間複雜度推導**
+
+假設堆有n個節點，則高度為log n。
+
+```python
+
+
+每回合取出最大值，再重新堆積 : Ο(log n)
+總共需進行回合數 : n 次
+最大堆建立後接著排序 : Ο( n log n)
+
+故時間複雜度為 : Ο( n log n)
+
+````
+
+:blush: 理論上由於Heap sort是in place sorting，相較Merge sort需要佔外部空間，因此Heap sort較優於Merge sort。
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+流程圖:
+-----
+
+![Heap Sort](https://github.com/imucici/my-learning-note/blob/master/%E5%9C%96%E7%89%87/Heap%20Sort_%E6%B5%81%E7%A8%8B%E5%9C%96.png)
+
+
+
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+建構Max_heap:
+-----
+將矩陣中index(0)的位置閒置，從index(1)開始存放資料(如圖一)，即可使用矩陣來表示Binary Heap。
+
+![圖一](https://github.com/imucici/my-learning-note/blob/master/%E5%9C%96%E7%89%87/heap%20sort.jpg)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+
+MaxHeapify函式:
+----
+
+* MaxHeapify()的功能，是**由上而下** ，遵循`Max Heap`的規則(i的值會大於兩個child的值)，重複調整矩陣，直到所有的點都被檢查完。
+* 先初設3個變數:
+  * l = 2 * i + 1
+  * r = 2 * i + 2
+  * largest = i
+  
+```ptrhon
+l = 2 * i + 1 
+r = 2 * i + 2
+largest = i
+```
+方法如下:
+
+* 找到這三者之中的最大值，只要最大的不是**i** ，就用`largest` 紀錄該最大值的index。
+* 將index(i)與index(largest)的值互換，如此一來，當前的subtree必定能滿足Max Heap規則。
+* 繼續以**index(largest)** 當作新的subtree的i，檢查新的subtree是否符合Max Heap規則，若不滿足，則重複上述動作調整。
+
+```python
+if l<=n and array[l]>array[largest]: #長度要大於等於l,可以防止超過矩陣的長度
+    largest = l
+if r<=n and array[r]>array[largest]: #長度要大於等於r,可以防止超過矩陣的長度
+    largest = r
+if largest != i:
+    array[largest],array[i] = array[i],array[largest] #將最大值和index = i (也就是當前subtree之root的地方)互換
+    MaxHeapify(array,n,largest)
+```
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+BuildMaxHeap函式:
+---
+
+* BuildMaxHeap()是**由下而上**，做MaxHeapify()
+* 針對非葉節點(有child的節點)做MaxHeapify，就能夠將任意矩陣調整成Max Heap。
+```diff
+!因為Max Heap的規則是「比較i的數值與兩個child的數值」，因此沒有child的葉節點就一定不會違反Max Heap的規則。
+```
+* 對於heap，在array[0,1,...,n-1]中，葉節點位於array[:(n-1)//2]
+
+```python
+def BuildMaxHeap(array):
+    for i in reversed(range((len(array)-1)//2+1)):
+        MaxHeapify(array,i)
+```
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+HeapSort
+-----
+
+
+```python
+def MaxHeapify(array,n,i):
+    l = 2*i+1
+    r = 2*i+2
+    largest = i
+    if l<=n and array[l]>array[largest]: #長度要大於等於l,可以防止超過矩陣的長度
+        largest = l
+    if r<=n and array[r]>array[largest]: #長度要大於等於r,可以防止超過矩陣的長度
+        largest = r
+    if largest != i:
+        array[largest],array[i] = array[i],array[largest] #將最大值和index = i (也就是當前subtree之root的地方)互換
+        MaxHeapify(array,n,largest)
+
+def HeapSort(array):
+    n = len(array)
+    #因為葉節點(沒有child的節點)一定不會違反Max Heap的規則，因此只需針對非葉節點(有child的節點)做MaxHeapify
+    #對於heap，葉節點位於array[:(n-1)//2]
+    #HeapSort是由下往上進行，因此用reverse做順序反轉
+    for i in reversed(range(n//2)): 
+        MaxHeapify(array,n-1,i) #長度要減一, 因為heap從index = 1開始存放資料
+    while n>1:
+        array[n-1],array[0] = array[0],array[n-1]
+        n -= 1
+        MaxHeapify(array,n-1,0)
+    return array
+```    
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+參考資料:
+---
+
+* [Heap Sort 的原理及Python实现](https://blog.csdn.net/weixin_37621790/article/details/86695537)
+* [Comparison Sort: Heap Sort(堆積排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html#heapify)
+* [演算法筆記(二) | Heap sort and Quick sort實作in Java](https://medium.com/codeda/%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98-%E4%BA%8C-heap-sort-and-quick-sort%E5%AF%A6%E4%BD%9Cin-java-5b66c6322777)
+* [堆積排序法(Heap Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Heap/Heap.php)
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+Merge Sort
+=====
+
+目錄:
+---
+* [簡介](#簡介)
+* [穩定性_時間_空間複雜度比較](#穩定性_時間_空間複雜度比較)
+* [流程圖](#流程圖)
+* [參考資料](#參考資料)
+
+
+簡介:
+-----
+
+* Merge Sort : 基本將問題拆為2大步驟處理
+
+
+    * **拆分(Divided)** : 將原始array不斷`對半`拆分至每組小陣列都只剩**1**個元素。
+      * 先把{41,33,17,80,61,5,55}分成{41,33,17,80}與{61,5,55}。
+      * 再把{41,33,17,80}分成{41,33}與{17,80} ; {61,5,55}分成{61,5}與{55}。
+      * 最後將每組數列拆分至皆剩下一個元素，{41}、{33}、{17}、{80}、{61}、{5}、{55}。
+    * **合併(Conquer)** : 將2個小陣列合併，並由小到大排列，直到所有小陣列都合併完成。
+      * 比較{41}、{33}大小，合併成{33,41} ; 比較{17}、{80}大小，合併成{17,80} ; 比較{61}、{5}大小，合併成{5,61}。
+      * 比較{33,41}、{17,80}大小，合併成{17,33,41,80} ; 比較{5,61}、{55}大小，合併成{5,55,61}。
+      * 比較{17,33,41,80}、{5,55,61}大小，合併成{5,17,33,41,55,61,80}
+
+![圖](https://miro.medium.com/max/2648/1*lbHMJmGtjb_qe943kE_bmg.jpeg)
+
+>[參考網站](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F%E6%B3%95%E9%80%B2%E9%9A%8E-%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F%E6%B3%95-6252651c6f7e)
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%85%AD%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+穩定性_時間_空間複雜度比較:
+----
+
+|         |     Merge Sort     |  	Heap Sort |
+| :-------------: |:-------------:| :------------:|
+| 最佳時間複雜度        | Ο(n log n)    |Ο(n log n)|
+| 平均時間複雜度        | Ο(n log n)     |   Ο(n log n)|
+| 最差時間複雜度         | Ο(n log n)     |  Ο(n log n)|
+|空間複雜度| Ο(n) 為避免在合併時覆蓋掉還未比較的元素，因此需暫時開一個空間存放Merge後的結果| Ο(1) (in_place不占外部空間)|
+|穩定性|穩定|不穩定|
+
+```diff
+! 穩定:如果鍵值相同之資料，在排序後相對位置與排序前相同時，稱穩定排序。
+! 不穩定:如果鍵值相同之資料，在排序後相對位置與排序前不相同時，稱不穩定排序。
+````
+
+* **Merge Sort_時間複雜度推導**
+<br></br>
+![Merge Sort_時間複雜度推導](https://github.com/imucici/my-learning-note/blob/master/%E5%9C%96%E7%89%87/Merge%20Sort_%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6.jpg)
+
+
+* **Heap Sort_時間複雜度推導**
+
+假設堆有n個節點，則高度為log n。
+
+```python
+
+
+每回合取出最大值，再重新堆積 : Ο(log n)
+總共需進行回合數 : n 次
+最大堆建立後接著排序 : Ο( n log n)
+
+故時間複雜度為 : Ο( n log n)
+
+````
+
+:blush: 理論上由於Heap sort是in place sorting，相較Merge sort需要佔外部空間，因此Heap sort較優於Merge sort。
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%85%AD%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+流程圖:
+-----
+
+![Merge Sort](https://github.com/imucici/my-learning-note/blob/master/%E5%9C%96%E7%89%87/Merge%20Sort_%E6%B5%81%E7%A8%8B%E5%9C%96.png)
+
+
+[回目錄](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%85%AD%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md#%E7%9B%AE%E9%8C%84)
+
+
+
+參考資料:
+-----
+
+* [初學者學演算法｜排序法進階：合併排序法](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F%E6%B3%95%E9%80%B2%E9%9A%8E-%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F%E6%B3%95-6252651c6f7e)
