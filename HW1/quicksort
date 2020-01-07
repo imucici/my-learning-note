@@ -1,0 +1,18 @@
+# 佔外部空間法
+
+def quicksort(list):
+    if len(list) <= 1: # 若為空list或只含單個元素的list，默認已排序，所以直接回傳
+        return list
+    else:
+        pivot = list[0] #把最左邊的數當基準點
+        smaller = [] #建空list給<pivot的值放
+        bigger = [] #建空list給>pivot的值放
+        equal = [] #建空list給=pivot的值放
+        for i in list:
+            if i < pivot:
+                smaller.append(i) #將<pivot的值放入
+            elif i > pivot:
+                bigger.append(i) #將>pivot的值放入
+            else:
+                equal.append(i) #將=pivot的值放入
+        return quicksort(smaller) + equal + quicksort(bigger)#3個list合併
