@@ -6,7 +6,6 @@
 -----
 * [解題觀念補強](#解題觀念補強)
 * [上課內容筆記](#上課內容筆記)
-* [作業](#作業)
 * [上課進度題目練習](#上課進度題目練習)
 * [自主練習_LeetCode](#自主練習_LeetCode)
 
@@ -36,19 +35,6 @@
 * 第四周 (InsertionSort、QuickSort) [InsertionSort、QuickSort](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%9B%9B%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第五周 (Heap Sort) [Heap Sort](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E4%BA%94%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
 * 第六周 (Merge Sort) [Merge Sort](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/%E7%AC%AC%E5%85%AD%E9%80%B1%E4%B8%8A%E8%AA%B2%E9%80%B2%E5%BA%A6.md)
-
-
-[回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
-
-
-作業:
-----
-
-* (一)
-  * [qs學習歷程、流程圖、說明.ipynb](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/quick%20sort/qs%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E3%80%81%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E8%AA%AA%E6%98%8E.ipynb)
-  * [quick sort_佔外部空間法](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/quick%20sort/quick%20sort_%E4%BD%94%E5%A4%96%E9%83%A8%E7%A9%BA%E9%96%93%E6%B3%95.ipynb)
-  * [quick sort_in_place 不佔外部空間法](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/quick%20sort/quick%20sort_in_place%20%E4%B8%8D%E4%BD%94%E5%A4%96%E9%83%A8%E7%A9%BA%E9%96%93%E6%B3%95.ipynb)
-  * [quick sort_流程圖](https://github.com/imucici/my-learning-note/blob/master/%E4%B8%8A%E8%AA%B2%E5%85%A7%E5%AE%B9%E7%AD%86%E8%A8%98/quick%20sort/quick%20sort_%E6%B5%81%E7%A8%8B%E5%9C%96.png)
 
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
