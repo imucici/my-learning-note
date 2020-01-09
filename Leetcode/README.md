@@ -1,6 +1,8 @@
 自主練習_LeetCode: 
 -----
 
+[完整題目在這](https://github.com/imucici/my-learning-note/tree/master/LeetCode)
+
 (截至目前已完成118題)
 
 |         |     LeetCode題目     |  解法  | 運行時間 |
