@@ -1,21 +1,17 @@
-#題目:找出只出現一次的單詞
+class Solution:
+    def uncommonFromSentences(self, A: str, B: str) -> List[str]:
+        lst = []
+        final = []
 
-A = "s z z z s"
-B = "s z ejt"
+        a = A.split(" ")
+        b = B.split(" ")
 
-lst = []
-final = []
+        lst.extend(a)
+        lst.extend(b)
 
-a = A.split(" ")
-b = B.split(" ")
+        s = set(lst)
 
-lst.extend(a)
-lst.extend(b)
-print("lst:",lst)
-
-s = set(lst)
-
-for i in s:
-    if lst.count(i) == 1:
-        final.append(i)
-print("final",final)
+        for i in s:
+            if lst.count(i) == 1:
+                final.append(i)
+        return final
