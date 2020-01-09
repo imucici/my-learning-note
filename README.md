@@ -184,7 +184,9 @@
 |530.|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/530.%20Minimum%20Absolute%20Difference%20in%20BST.ipynb)|52 ms|
 |783.|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/783.%20Minimum%20Distance%20Between%20BST%20Nodes.ipynb)|32 ms|
 |897.|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week15/897.%20Increasing%20Order%20Search%20Tree.ipynb)|88 ms|
-
+| **week18** ||||
+|290.|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week18/290.%20Word%20Pattern)|24 ms|
+|680.|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)|[Python](https://github.com/imucici/my-learning-note/blob/master/LeetCode/week18/680.%20Valid%20Palindrome%20II)|896 ms|
 
 
 [回目錄](https://github.com/imucici/my-learning-note#%E7%9B%AE%E9%8C%84-)
